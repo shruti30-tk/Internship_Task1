@@ -1,0 +1,8 @@
+Open Ports:
+
+# 53 (Domain) – This port runs DNS. If not secured, it can be used for DNS spoofing or amplification attacks.
+# 80 (HTTP) – This is used for web traffic but is not encrypted. Attackers can sniff data or inject content if there's no HTTPS fallback.
+# 443 (HTTPS) – Secure web traffic. Safer than HTTP, but if misconfigured (e.g., expired certs), it can still be vulnerable.
+Filtered Ports:
+# 21 (FTP) – Used for file transfer. If it were open and unencrypted, it could leak login credentials.
+# 23 (Telnet) – An old protocol used for remote access. It’s insecure by default (plain text), and should be avoided
