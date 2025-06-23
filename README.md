@@ -14,8 +14,8 @@ Steps
    * `-Pn`: To skip host discovery (useful if ping responses are blocked).
    * `-p-`: To scan all 65535 ports.
    * `-oN`: To save the results in a standard text file format.
-    
-5. Once the scan was complete, I reviewed the output file (`scan_results.txt`) to examine the results.
+   ![image](https://github.com/user-attachments/assets/4c045b55-a284-4219-8f9e-e3797e97ba4e)
+ 5. Once the scan was complete, I reviewed the output file (`scan_results.txt`) to examine the results.
 6. After analyzing the open ports, I looked into the **security risks** associated with those services. The detailed risk assessment can be found in the `Risk_Assessed` file.
 
 ### Outcome : By completing this task, I learned how to:
